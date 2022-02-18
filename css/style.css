@@ -1,0 +1,113 @@
+body{font-family: 'Merriweather',serif;}p{font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-weight: 700;}
+img{max-width: 100%;}
+.container{padding-left: 16px;overflow: hidden;}
+
+/*top_header_area*/
+
+.top_header_area{border-top: 5px solid #3bafbe;border-bottom: 1px solid #ddd;padding: 20px 0;}
+.top_header_area .social_area{width: 100%;clear: both;margin-bottom: 2rem;}
+.top_header_area .social_area ul{margin: 0;padding: 0;list-style: none;}
+.top_header_area .social_area ul li{display: inline-block;margin-right: 0.5rem;}
+.top_header_area .social_area ul li a{background: #1f1f1f;color: #fff;width: 2rem;height: 2rem;display: block;border-radius: 50%;text-align: center;padding-top: 0.2rem;}
+.top_header_area .social_area ul li a:hover{background: #ee802f;transition: 0.5s;}
+.top_header_area .search_area{text-align: right;width: 100%;clear: both;margin-bottom: 2rem;}
+.top_header_area .search_area input{background: #333333;color: #fff;border: 0px solid;padding: .5rem;border-radius: 0.3rem;}
+.top_header_area .search_area input[type="submit"]{background: #3bafbe;cursor: pointer;}
+.top_header_area .search_area input[type="submit"]:hover{background: #ee802f;transition: 0.5s;}
+.top_header_area .menu_area{text-align: right;width: 100%;clear: both;}
+.top_header_area .menu_area ul{margin: 0;padding: 0;list-style: none;}
+.top_header_area .menu_area ul li{display: inline-block;}
+.top_header_area .menu_area ul li a{display: block;text-decoration: none;font-size: 1.2rem;color: #999999;padding: 0.2rem 1.2rem;}
+.top_header_area .menu_area ul li a:hover{color:#3bafbe ;transition: 0.5s;}
+.slicknav_menu {display: none;}
+/*banner tv_area*/
+
+.banner_tv_area{margin-top: 3rem;clear: both;width: 100%;overflow: hidden;}
+.banner_tv_area .tv{text-align: center; width: 100%; clear: both;padding: 0 24px;}
+.banner_tv_area .tv img{width: 100%;height: auto;margin-left: 23px;}
+.banner_tv_area .text{text-align: center; width: 100%; clear: both;margin-left: 23px;}
+.banner_tv_area .text h1{margin-top: 3rem;margin: 1rem auto 2rem;width: 73%;text-align: left;}
+.banner_tv_area .text p{text-align: left;display: block;margin: auto;width: 73%;font-size: 1.2rem;margin-bottom: 2rem;}
+.banner_tv_area .text a{text-decoration: none;font-size: 1.5rem;text-align: left;background: #3bafbe;display: block;color: whitesmoke;text-align: center;border-radius: 3%;padding: 4px 11px;margin-left: 14%;width: 10rem;}
+.bx-wrapper .bx-controls-direction a {display: none;}
+.bx-wrapper .bx-pager {text-align: right;}
+.bx-wrapper .bx-pager.bx-default-pager a {width: 18px;height: 18px;border-radius: 10px;border: 4px solid #3bafbe;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: none;
+}
+.bx-wrapper {
+  box-shadow: 0 0 0px #ccc;
+}
+
+/*package area*/
+
+.btn_1 {margin-top: 20px;padding: 3px;color: whitesmoke;font-family: cursive;background: #3bafbe;border-radius: 10px;}
+.para{width: 333px;}
+.left_box,.middle_box,.right_box{margin-bottom: 10px;padding-left: 5px;margin-top: 20px;}
+.banner_tv_area::after {content: "";display: block;margin-bottom: 5rem;width:100%;height: 2px;background: #e2e2e2;}
+
+/*small package area*/
+
+.small_package_area::before{ content: "";display: block;margin: 2rem;width:100%;height: 2px;background: #e2e2e2;}
+.small_package_area{width: 100%;overflow: hidden;clear: both;}
+.small_package_area h1{text-align: center;color: #666666;font-size: 35px;font-weight: 400;font-style: italic;margin-bottom: 4rem;}
+.small_package_area .nature_1 {margin-top: 7px;float: left;}
+.small_package_area .Here {color: #3bafbe;margin-left: 10px;display: inline-block;}
+.small_package_area .Morbit {font-size: 15px; width: 250px;margin-left: 93px;}
+.small_package_area::after{ content: "";display: block;margin: 2rem;width:100%;height: 2px;background: #e2e2e2;}
+.left_1, .middle_1, .right_1{margin-bottom: 50px;}
+
+/*finishing area*/
+
+.finishing_area {overflow: hidden;background-color: #252525;clear: both;height: auto;width: 100%;}
+.finishing_area .items_1, .items_2, .items_3, .items_4{width: 225px;}
+.finishing_area .Contact {color: whitesmoke;}
+.finishing_area .Company, .Blog{color: #8c8c8c;}
+.finishing_area .Quick{color: whitesmoke}
+.finishing_area .Link, .news{color: whitesmoke}
+.finishing_area .From{color: whitesmoke}
+.finishing_area .dag {width: 155px;height: 1px;margin-top: 10px;background: #686666;}
+.finishing_area .justo{color: whitesmoke}
+.finishing_area .Read { margin-left: 90px; color: #3bafbe;}
+.finishing_area input {color: wheat;margin-bottom: 20px;border-radius: 7px;}
+.sub {background: #3bafbe;color: whitesmoke;}
+.finishing_area .col-md-3{padding: 35px 0;}
+
+/*footer area*/
+
+.foot p {color: goldenrod;padding: 1rem 0;}
+.foot {overflow: hidden;background-color: black;}
+.foot .col-md-6:last-child{text-align: right;}
+
+/*responsive issue*/
+
+@media only screen and (min-width:200px) and (max-width:768px){
+
+.top_header_area .social_area ul {text-align: center;}
+.logo{text-align: center;}
+.col-md-9 .search_area, .menu_area{display: none;}
+.packagr_area{text-align: center;}
+.para {margin: auto;width: auto;}
+.small_package_area h1 {font-size: 20px;}
+.finishing_area .items_1, .items_2, .items_3, .items_4 {margin: auto;width:100%;}
+.finishing_area {text-align: center;}
+.finishing_area .dag {margin: auto;width: 100%;}
+.foot .col-md-6:last-child {text-align: left;}
+.slicknav_menu {display:block;;}
+.finishing_area input {padding: 13px;width: 100%;}
+.finishing_area input[type="button"] {padding: 13px;width: 150px;}
+.foot p {padding: 0.5rem 0 0;}
+}
+@media only screen and (min-width:768px) and (max-width:1200px){
+  .top_header_area .social_area ul {float: right;}
+  .top_header_area .social_area {margin-bottom: 0;}
+  .col-md-4 {width: 49.333333%;margin: auto;}
+  .banner_tv_area .tv {padding: 0 0px;}
+  .col-md-8 {width:49.333333%;}
+  .col-md-3 {width: 50%;}
+  .finishing_area .col-md-3 {padding: 35px 80px;}
+  .slicknav_menu {display:block;}
+  .col-md-9 .search_area, .menu_area{display: none;}
+  .top_header_area .col-md-3{width: 100%;}
+}
